@@ -23,7 +23,7 @@ public class player_movement : MonoBehaviour
     [SerializeField] private float cayote_time_;
     private float grounded_timer_ = 0.0f;
 
-    private bool is_grounded_ { get { return grounded_timer_ > .0f ? true : false; } }
+    private bool is_grounded_ { get { return grounded_timer_ > .0f } }
 
 
     private void Start()
